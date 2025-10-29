@@ -1,5 +1,3 @@
-
-
 // ユーザ情報
 const person = {
     name: "優太",
@@ -13,8 +11,6 @@ const person = {
         actual: 4000
     }
 }
-console.log(person.calorieInfo.actual);
-console.log((person.calorieInfo.actual / person.calorieInfo.target) * 100);
 
 
 // 現在時刻取得
@@ -54,9 +50,6 @@ function getGreetMessage (hour) {
         return random(message);
     }
 }
-//console.log(getTimeOfDay (now.getHours())) 
-
-
 
 
 //健康状態についてのコメント
@@ -103,6 +96,7 @@ function getHealthComment(actual, target) {
         return random(message);
     }
 }
+
 
 //名前付きあいさつ文
 function greet (name = "ゲスト"){
